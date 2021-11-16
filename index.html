@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
@@ -9,7 +7,7 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 100%; height: 100%; background: #231F20"></canvas>
-    <script src="Build/NO-BACKGROUND-UI.loader.js"></script>
+    <script src="Build/New-Unity-Version.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -20,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/NO-BACKGROUND-UI.data",
-        frameworkUrl: "Build/NO-BACKGROUND-UI.framework.js",
-        codeUrl: "Build/NO-BACKGROUND-UI.wasm",
+        dataUrl: "Build/New-Unity-Version.data",
+        frameworkUrl: "Build/New-Unity-Version.framework.js",
+        codeUrl: "Build/New-Unity-Version.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Tweed",
